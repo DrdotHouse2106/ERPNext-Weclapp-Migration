@@ -144,7 +144,7 @@ Clone the repository, then copy the example configuration:
 
 ```bash
 git clone <your-fork-url>
-cd weclapp-erpnext-migration
+cd ERPNext-Weclapp-Migration
 cp config_example.py config.py
 ```
 
