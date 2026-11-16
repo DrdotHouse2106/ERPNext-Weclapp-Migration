@@ -271,7 +271,7 @@ class ERPNextAPI(ApiBase):
                 url     = self._get_method_url("upload_file"),
                 headers = headers,
                 files   = {"file": file},
-                data    = {"doctype": doctype.value, "docname": id},
+                data    = {"doctype": doctype.value, "docname": id, "is_private": 1},
                 timeout = (10, 180)
             )
             response.raise_for_status()
